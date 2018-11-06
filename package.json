@@ -1,0 +1,23 @@
+{
+    "name": "facturas",
+    "version": "1.0.0",
+    "description": "Sistema para registro de pagos y recibir dinero",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^3.0.0",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "jade": "^1.11.0",
+        "jsonwebtoken": "^8.3.0",
+        "mongoose": "^5.2.7",
+        "mongoose-unique-validator": "^2.0.1",
+        "socket.io": "^2.1.1",
+        "underscore": "^1.9.1"
+    }
+}
